@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!--
+      OC CIS 155 Web Development I
+      Build on Concepts Project #______ (indicate which project this is for)
+      
+      Student Name: Phuong Bach
+      Date: 11/14/2018   
+
+      Filename: people.html
+      Supporting files: sb.css, sblogo.png
+
+   -->
+      <meta charset="utf-8" />
+      <title>People</title>
+	  <meta name="author" content="Phuong Bach">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link href="sb.css" rel="stylesheet"/>
+	  <link href="sbstyles.css" rel="stylesheet"/>
+	  <!--Add fonts from website https://fonts.google.com-->	
+	  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+	  
+   
+   </head>
+<!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
+   <body>
+	   <header>
+         <div class="welcome" >
+		 <!-- image fromhttps://unsplash.com/photos/tCM6cQjIQ7Q Photo taken by Chris Slupski -->
+		 <img src="newheader.jpg" alt=""/>
+		 <h1>Welcome to Vietnam</h1>
+		 </div>
+	   </header>
+	     
+      <nav id="siteNav">
+         <ul>
+            <li class="newTopic"><a href="home.html">Home</a></li>
+            <li class="newTopic"><a href="POIs.html">POIs</a></li>
+            <li><a href="hanoi.html">Ha Noi</a></li>
+            <li><a href="hcm.html">Ho Chi Minh</a></li>
+            <li><a href="hlbay.html">Ha Long Bay</a></li>
+            <li><a href="pquoc.html">Phu Quoc</a></li>
+			<li class="newTopic"><a href="people.html">People</a></li>
+            <li class="newTopic"><a href="about.html">About</a></li>
+         </ul>
+      </nav>
+	 
+      <section id="main">
+	  <!-- Text from Wikipedia https://en.wikipedia.org/w/index.php?title=Vietnamese_people&oldid=865038119-->
+			<h1>People of Vietnam</h1>
+			<div class="flexcol">
+				<article>
+					<h3>Origin</h3>
+					<p>
+						The Vietnamese people or the Kinh people, are an ethnic group 
+						originating from present-day northern Vietnam. They are the 
+						majority ethnic group of Vietnam, comprising 86% of the 
+						population at the 1999 census, and are officially known as Kinh
+						to distinguish them from other ethnic groups in Vietnam. The 
+						earliest recorded name for the ancient Vietnamese people appears
+						as Lạc. Although geographically and linguistically labeled as 
+						Southeast Asians, long periods of Chinese domination and influence 
+						have placed the Vietnamese in the East Asian cultural sphere, or
+						more specifically their immediate northern neighbours, the Southern
+						Han Chinese and other peoples within South China. The word Việt is 
+						shortened from Bách Việt, a name used in ancient times for various
+						non-Chinese peoples who were assimilated into Chinese culture. Nam 
+						means "south". Together, Vietnam means "to the south of the Viet",
+						as Vietnam is located south of the Bách Việt.
+					</p>
+				</article>
+				<form> 
+					<h4>Message Board</h4>
+					<label for="firstname">First Name:</label>
+					<input type="text" name="firstname" id="firstname" required />
+					<label for="lastname">Last Name:</label>
+					<input type="text" name="lastname" id="lastname" required />
+					<textarea name="message" id="message" rows="12" cols="21" required placeholder="Enter message..."></textarea>					
+					<input type="Reset">
+					<input type="Submit" >
+				</form>
+			</div>			
+			<section class="flexhoz">
+				<!-- Image form Unpslash by Larm Rmah https://unsplash.com/photos/AEaTUnvneik-->
+				<img src="pp2.jpg" alt="hmong" />	
+				<!-- Image from Wikipedia https://en.wikipedia.org/w/index.php?title=Vietnamese_people&oldid=865038119 -->
+				<img src="pp1.jpg" alt="kinh" />	
+				<img src="pp3.jpg" alt="tay" />	
+			</section>
+			<!--Infomation from wikipedia https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Vietnam&oldid=860643328-->
+			<h4>Population</h4>
+			<table>	
+				<tr>
+					<th>Rank</th>
+					<th>City Name</th>
+					<th>Area (km2)</th>
+					<th>Population</th>
+				</tr>
+				<tr>
+					<td># 1</td>
+					<td>Ho Chi Minh</td>
+					<td>2095.5</td>
+					<td>8,146,300</td>
+				</tr>
+				<tr>
+					<td># 2</td>
+					<td>Ha Noi</td>
+					<td>3325.5</td>
+					<td>7,216,000</td>
+					
+				</tr>
+				<tr>
+					<td># 3</td>
+					<td>Hai Phong</td>
+					<td>1527.4</td>
+					<td>1,763,000</td>
+				</tr>
+				<tr>
+					<td># 4</td>
+					<td>Da Nang</td>
+					<td>1285.4</td>
+					<td>1,328,000</td>
+				</tr>
+				<tr>
+					<td># 5</td>
+					<td>Can Tho</td>
+					<td>1408.9</td>
+					<td>1,248,000</td>
+				</tr>
+				<tr><td colspan="4">Statistics as of 2015</td></tr>
+			</table>
+			<footer>
+			Wikipedia contributors. "List of cities in Vietnam." Wikipedia,
+			The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 22 Sep.
+			2018. Web. 15 Nov. 2018.<br />
+			Photo of Vietnam by Chris Slupski. Unsplash December 2018, unsplash.com
+			</footer>
+	  </section>
+		
+   </body>
+<!--Nothing gets coded between closing body and closing html tags. All page content, including footer, goes in the body.-->
+</html>

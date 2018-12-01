@@ -1,0 +1,272 @@
+
+/*
+	Name: Phuong Bach
+    Date: 10/21/2018   
+    Filename:  sbstyles.css
+*/
+/* NEW! Mobile setting */
+@media only screen and (max-width: 600px) {
+	article {width:100%;}
+}
+
+/* Html setting*/
+ @font-face {
+			font-family: 'Berkshire Swash', cursive;
+			font-family: 'Italianno', cursive;
+			font-family: 'Marck Script', cursive;
+			font-family: 'Lora', serif;
+			font-weight: normal;
+			font-style: normal;
+}
+html {
+	background-image: url("bg1.jpg");
+	background-size: contain;
+	min-width: 320px;
+	max-width:1440px;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	
+}
+
+/* Header Styles */
+header {
+	float: right;
+	margin: 0 2% 0 0;
+	padding: 0;
+	border: none;
+	}
+#topic {
+	float: right;
+	position: relative;
+	left: 9.5%;
+}
+.welcome {
+	position: relative;
+	display: block;
+}
+.welcome img {
+   position: relative; 
+   width: 109.5%;
+   height: 300px;
+}
+.welcome h1{
+	font-family: 'Italianno', cursive;
+	font-size: 6em;
+	transform: scaleY(0.5);
+	position:absolute;
+	top: 42%;
+	left: 13%;	
+	color: white;
+	font-style: normal;
+}
+/* Body styles */
+
+.scroll {
+	overflow-y: scroll;
+	text-align: justify;
+	height: 576px;
+	margin-bottom: 1%;
+}
+.scroll p {
+	padding-right: 3%;
+}
+#main div::-webkit-scrollbar {
+	background-color: #F0F3F4  ;
+    width: 6px;
+	display: block;
+	border-radius: 10px;
+}
+#main div::-webkit-scrollbar-thumb {
+	background-color: #BDC3C7;
+    width: 6px;
+	display: block;
+	border-radius: 10px;
+}
+
+/* Site Navigation Styles */
+nav#siteNav a{
+	color: white;	
+}
+nav#siteNav {
+	display: block;
+	position: fixed;
+	border: none;
+	background-color: black;
+	opacity: 0.7;
+    transition: 0.3s;
+	margin-left: 3.4%;
+	z-index: -1;
+}
+nav#siteNav:hover {
+	opacity: 0.9
+}/*add a trasistion of color on the siteNav bar*/
+
+
+
+nav#subNav ol {
+   display: block;
+   list-style-type: circle; 
+   font-size: 1.2em;
+   text-align: left;
+   text-decoration: underline;
+   margin: 5% 5%;
+   clear: right;
+}/*add a sub navigator bar under the POIs tab*/
+
+
+
+
+/* Main Section Styles */
+
+section > img#hnmap {
+	float: right;
+	margin: 3% 0 0 2%;
+}
+
+section#main {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	text-align: justify;
+	background-color: #FEF9E7;
+	margin: 0 0 0 23%;
+	padding: 0% 2% 1%;
+	border: 14px solid;
+	border-image: url(outline.png) 30 round;
+}/*set background image and style*/
+
+div#pics img {
+	display: inline-block;
+	width: 30%;
+	float: right;
+	clear: right;
+	margin: 0 -1% 0 0;
+}
+
+div#caption {
+	display:inline-block;
+	clear: right;
+	float: right;
+	bottom: 0px;
+	margin-right: 5%;
+}
+
+/*setting font styles */
+section#main h1 {
+   font-family: 'Italianno', cursive;
+   font-size: 3.5em;
+   text-align: center;
+   margin: 1%;
+}
+section#main h2 {
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 3em;
+   text-align: left;
+   margin: 1%;
+}
+/*-----------NEW STYLE BOC3-----------*/
+
+section#main h3 {
+   font-family: 'Marck Script', cursive;
+   font-size: 2em;
+   text-align: center;
+   margin: 3% 1%;
+}
+section#main h4 {
+	font-family: 'Lora', serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 2%;
+}
+/* form setting */
+form {
+	position:relative;
+	width: 25%;
+	padding-left: 2.5%;
+	text-align: left;
+	margin-top: 2%;
+}
+form label {
+	display: inline-block;
+	width: 55%;
+	
+}
+form input {
+	width: 40%;
+	margin-bottom: 3%;
+}
+
+/*flex setting*/
+.flexcol {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flexhoz {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 2% 0;
+}
+.flexhoz img {
+	width: 220px;
+	height:150px;
+	border-radius: 10px;
+	margin: 0.5%;
+}
+/*article column setting*/
+article p {
+	-webkit-column-count: 3;
+	column-count: 3;
+	column-fill: auto;	
+	padding: 0 2%;
+}
+article {
+	border: 2px solid;
+	position:relative;
+	width: 75%;
+	height: 400px;
+	background-color:#EAFAF1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	justify-content: center;
+}
+article::-webkit-scrollbar {
+	background-color: #F0F3F4  ;
+    width: 6px;
+	display: block;
+	border-radius: 10px;
+}
+article::-webkit-scrollbar-thumb {
+	background-color: #BDC3C7;
+    width: 6px;
+	display: block;
+	border-radius: 10px;
+}
+/*Table setting*/
+table {
+	width: 100%;
+	text-align: center;
+}
+table, tr, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 1%;
+}
+th {
+	font-size: 1.2em;
+	background-color:#D6EAF8;
+}
+td {
+	background-color:#EBF5FB;
+}
+/*Footer*/
+footer {
+	font-size: 0.8em;
+	position: relative;
+	bottom: 0;
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+
+
+
+
