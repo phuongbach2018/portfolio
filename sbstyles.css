@@ -101,6 +101,7 @@ nav#siteNav {
    opacity: 0.7;
    transition: 0.3s;
    margin-left: 3.2%;
+   width: 163px;
 }
 nav#siteNav:hover {
    opacity: 0.9
