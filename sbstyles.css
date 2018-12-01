@@ -38,7 +38,7 @@ header {
    margin: 0 2% 0 0;
    padding: 0;
    border: none;
-   width:75%;
+   width: 75%;
 }
 #topic {
    float: right;
@@ -54,7 +54,6 @@ header {
    position: relative;
    width: 109.5%;
    height: 300px;
-   
 }
 #welcome h1 {
    font-family: 'Italianno', cursive;
@@ -67,6 +66,7 @@ header {
    font-style: normal;
 }
 /* Body styles */
+
 .scroll {
    overflow-y: scroll;
    text-align: justify;
@@ -134,13 +134,13 @@ section#main {
    padding: 0% 2% 1%;
    border: 14px solid;
    border-image: url(outline.png) 30 round;
-   width:75%;
+   width: 75%;
 }
 /*set background image and style*/
 
 div.pics img {
    display: inline-block;
-   position:relative;
+   position: relative;
    width: 30%;
    float: right;
    clear: right;
@@ -191,24 +191,24 @@ form {
    margin-top: 2%;
 }
 form label {
-	display: inline-block;
-	width: 54%;
-  }
+   display: inline-block;
+   width: 54%;
+}
 form input {
    width: 35%;
    margin-bottom: 3%;
-  }
+}
 input[type="reset"] {
-	float: left;
-	margin-left: 8%;
-	width: 38%;
-	margin-top: 3%;
+   float: left;
+   margin-left: 8%;
+   width: 38%;
+   margin-top: 3%;
 }
 input[type="submit"] {
-	float: right;
-	margin-right: 8%;
-	width: 38%;
-	margin-top: 3%;
+   float: right;
+   margin-right: 8%;
+   width: 38%;
+   margin-top: 3%;
 }
 /*flex setting*/
 
@@ -233,9 +233,9 @@ article p {
    -webkit-column-count: 3;
    -webkit-column-fill: balance;
    -moz-column-count: 3;
-   -moz-column-fill: balance;   
+   -moz-column-fill: balance;
    -ms-column-count: 3;
-   -ms-column-fill: balance;  
+   -ms-column-fill: balance;
    column-count: 3;
    column-fill: balance;
    padding: 0 3%;
@@ -250,7 +250,6 @@ article {
    overflow-x: hidden;
    justify-content: center;
 }
-
 /*Table setting*/
 
 table {
@@ -279,7 +278,7 @@ footer {
    margin-bottom: 2%;
 }
 /*-----Reactice Map----------*/
-img#clickmap:hover {
-	opacity: 0.5
-}
 
+img#clickmap:hover {
+   opacity: 0.5
+}
