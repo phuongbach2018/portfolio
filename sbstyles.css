@@ -38,22 +38,25 @@ header {
    margin: 0 2% 0 0;
    padding: 0;
    border: none;
+   width:75%;
 }
 #topic {
    float: right;
    position: relative;
    left: 9.5%;
 }
-.welcome {
+#welcome {
    position: relative;
    display: block;
+   margin-left: 23%;
 }
-.welcome img {
+#welcome img {
    position: relative;
    width: 109.5%;
    height: 300px;
+   
 }
-.welcome h1 {
+#welcome h1 {
    font-family: 'Italianno', cursive;
    font-size: 6em;
    transform: scaleY(0.5);
@@ -64,7 +67,6 @@ header {
    font-style: normal;
 }
 /* Body styles */
-
 .scroll {
    overflow-y: scroll;
    text-align: justify;
@@ -98,8 +100,7 @@ nav#siteNav {
    background-color: black;
    opacity: 0.7;
    transition: 0.3s;
-   margin-left: 3.4%;
-   z-index: -1;
+   margin-left: 3.2%;
 }
 nav#siteNav:hover {
    opacity: 0.9
@@ -132,6 +133,7 @@ section#main {
    padding: 0% 2% 1%;
    border: 14px solid;
    border-image: url(outline.png) 30 round;
+   width:75%;
 }
 /*set background image and style*/
 
