@@ -74,13 +74,13 @@ header {
 .scroll p {
    padding-right: 3%;
 }
-#main div::-webkit-scrollbar {
+::-webkit-scrollbar {
    background-color: #F0F3F4;
    width: 6px;
    display: block;
    border-radius: 10px;
 }
-#main div::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
    background-color: #BDC3C7;
    width: 6px;
    display: block;
@@ -213,13 +213,18 @@ form input {
 }
 /*article column setting*/
 
-article p {
+.flexcol article p {
    -webkit-column-count: 3;
+   -webkit-column-fill: balance-all;
+   -moz-column-count: 3;
+   -moz-column-fill: balance-all;   
+   -ms-column-count: 3;
+   -ms-column-fill: balance-all;  
    column-count: 3;
-   column-fill: auto;
-   padding: 0 2%;
+   column-fill: balance-all;
+   padding: 0 3%;
 }
-article {
+.flexcol article {
    border: 2px solid;
    position: relative;
    width: 75%;
@@ -229,18 +234,7 @@ article {
    overflow-x: hidden;
    justify-content: center;
 }
-article::-webkit-scrollbar {
-   background-color: #F0F3F4;
-   width: 6px;
-   display: block;
-   border-radius: 10px;
-}
-article::-webkit-scrollbar-thumb {
-   background-color: #BDC3C7;
-   width: 6px;
-   display: block;
-   border-radius: 10px;
-}
+
 /*Table setting*/
 
 table {
