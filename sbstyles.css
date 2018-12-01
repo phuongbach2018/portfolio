@@ -213,18 +213,18 @@ form input {
 }
 /*article column setting*/
 
-.flexcol article p {
+article p {
    -webkit-column-count: 3;
-   -webkit-column-fill: balance-all;
+   -webkit-column-fill: balance;
    -moz-column-count: 3;
-   -moz-column-fill: balance-all;   
+   -moz-column-fill: balance;   
    -ms-column-count: 3;
-   -ms-column-fill: balance-all;  
+   -ms-column-fill: balance;  
    column-count: 3;
-   column-fill: balance-all;
+   column-fill: balance;
    padding: 0 3%;
 }
-.flexcol article {
+article {
    border: 2px solid;
    position: relative;
    width: 75%;
