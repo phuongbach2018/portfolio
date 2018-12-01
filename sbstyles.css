@@ -138,8 +138,9 @@ section#main {
 }
 /*set background image and style*/
 
-div#pics img {
+div.pics img {
    display: inline-block;
+   position:relative;
    width: 30%;
    float: right;
    clear: right;
@@ -277,3 +278,8 @@ footer {
    margin-top: 8%;
    margin-bottom: 2%;
 }
+/*-----Reactice Map----------*/
+img#clickmap:hover {
+	opacity: 0.5
+}
+
